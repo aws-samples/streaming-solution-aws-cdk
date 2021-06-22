@@ -1,0 +1,3 @@
+{
+  "app": "npx ts-node bin/streaming-solution-with-cdk.ts"
+}

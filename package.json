@@ -1,0 +1,37 @@
+{
+  "name": "streaming-solution-with-cdk",
+  "version": "1.0.0",
+  "bin": {
+    "streaming-solution-with-cdk": "bin/streaming-solution-with-cdk.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "^1.95.2",
+    "@types/jest": "^24.0.22",
+    "@types/node": "^10.17.5",
+    "aws-cdk": "^1.95.2",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.7.7"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-dynamodb": "^1.95.2",
+    "@aws-cdk/aws-iam": "^1.95.2",
+    "@aws-cdk/aws-kinesis": "^1.95.2",
+    "@aws-cdk/aws-kinesisanalytics": "^1.95.2",
+    "@aws-cdk/aws-kinesisfirehose": "^1.95.2",
+    "@aws-cdk/aws-lambda": "^1.95.2",
+    "@aws-cdk/aws-s3": "^1.95.2",
+    "@aws-cdk/aws-sns": "^1.95.2",
+    "@aws-cdk/aws-sns-subscriptions": "^1.95.2",
+    "@aws-cdk/core": "^1.95.2",
+    "cdk-dynamo-table-viewer": "^3.1.2",
+    "source-map-support": "^0.5.16"
+  }
+}
